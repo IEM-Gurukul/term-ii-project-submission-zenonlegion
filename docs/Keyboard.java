@@ -1,3 +1,5 @@
+// THIS IS AN INPUT PACKAGE
+
 package inputs;
 import utilsss.constant;
 import utilsss.constant.direc.*; 
