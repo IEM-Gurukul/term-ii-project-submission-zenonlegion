@@ -3,31 +3,30 @@
 
 ## Project Title
 
----
+Simple Platformer Game in Java (2D)
 
 ## Problem Statement (max 150 words)
+This project was made to simply demonstrate how a basic game logic would be made in java without the help of any engine. It focuses on the usaage of basic keywords and packages to perfor the tasks for game loop, animation cycling and User input.
 
----
 
 ## Target User
 
----
+General Audience
 
 ## Core Features
-
-- 
-- 
-- 
+Keyboard Input
+Standalone game loop
+Animations
 
 ---
 
 ## OOP Concepts Used
 
-- Abstraction:
-- Inheritance:
-- Polymorphism:
-- Exception Handling:
-- Collections / Threads:
+- Abstraction:yes
+- Inheritance:yes
+- Polymorphism:yes
+- Exception Handling:No
+- Collections / Threads:yes
 
 ---
 
@@ -36,8 +35,8 @@
 ---
 
 ## How to Run
-
----
+Program can run on the get-go.
+The correct path for the png animation sheet must be added to run properly
 
 ## Git Discipline Notes
 Minimum 10 meaningful commits required.
