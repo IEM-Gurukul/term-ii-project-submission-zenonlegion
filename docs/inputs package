@@ -1,0 +1,61 @@
+package inputs;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.event.MouseMotionListener;
+
+import Main.Panel;
+public class MouInput implements MouseListener,MouseMotionListener{
+
+	
+	
+	
+	private Panel panel;
+	public MouInput(Panel panel) {
+		this.panel=panel;
+	}
+	
+	
+	
+	@Override
+	public void mouseDragged(MouseEvent e) {
+		
+		
+	}
+
+	@Override
+	public void mouseMoved(MouseEvent e) {
+		
+		
+	}
+
+	@Override
+	public void mouseClicked(MouseEvent e) {
+		System.out.println("Clicked");
+		
+	}
+
+	@Override
+	public void mousePressed(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void mouseReleased(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void mouseEntered(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void mouseExited(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
