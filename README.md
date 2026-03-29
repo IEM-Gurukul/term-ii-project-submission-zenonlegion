@@ -6,7 +6,7 @@
 Simple Platformer Game in Java (2D)
 
 ## Problem Statement (max 150 words)
-This project was made to simply demonstrate how a basic game logic would be made in java without the help of any engine. It focuses on the usaage of basic keywords and packages to perfor the tasks for game loop, animation cycling and User input.
+This project was made to simply demonstrate how a basic game logic would be made in java without the help of any engine. It focuses on the usage of basic keywords and packages to perforM the tasks for game loop, animation cycling and User input.
 
 
 ## Target User
