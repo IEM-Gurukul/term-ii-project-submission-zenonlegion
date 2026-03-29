@@ -10,7 +10,7 @@ import javax.imageio.ImageIO;
 import javax.swing.JPanel;
 
 import inputs.Keyboard;
-import inputs.MouInput;
+
 import utilsss.constant;
 
 import static utilsss.constant.playerconst.*;
@@ -18,7 +18,7 @@ import static utilsss.constant.direc.*;
 
 
 public class Panel extends JPanel{
-	private MouInput mousinputs;
+	
 	private float xdel=100,ydel=100;
 	
 	private BufferedImage img;
@@ -28,15 +28,14 @@ public class Panel extends JPanel{
 	private int dir=-1;
 	private boolean moving =false;
 	public Panel() {
-		mousinputs=new MouInput(this);
+		
 		
 		
 		importimg();
 		loadanimations();
 		setPanelSize();
 		addKeyListener(new Keyboard(this));
-		addMouseListener(mousinputs);
-		addMouseMotionListener(mousinputs);
+		
 	}
 	
 	private void loadanimations() {
@@ -49,7 +48,7 @@ public class Panel extends JPanel{
 	}
 
 	private void importimg() {
-		InputStream is=getClass().getResourceAsStream("/DarkSamurai (64x64).png");
+		InputStream is=getClass().getResourceAsStream("/Main/DarkSamurai.png");
 		try {
 			img=ImageIO.read(is);
 		} catch (IOException e) {
